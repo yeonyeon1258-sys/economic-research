@@ -1,0 +1,8 @@
+2줄
+
+print([1]["source"])
+for item in news:
+    print(item["title"])
+
+a.txt 는 언어적 속성이 아니다 
+저장하려면 ("a.txt")여야 한다    

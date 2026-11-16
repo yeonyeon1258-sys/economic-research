@@ -1,0 +1,8 @@
+아무것도 나오지 않는다. 
+def
+    print 라서 None이 출력된다.
+
+def get_second_source(news_list):
+    return new_list[0]["source"]
+
+함수에서 지정한 값을 리턴하는데 리턴값이 news[0]["title"] 라서 첫번째 뉴스 타이틀만 반환한다

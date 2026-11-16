@@ -1,0 +1,13 @@
+for item in news:
+    print(item["source"])
+
+3줄 저장
+
+4칸 들여쓰기 하지 않음
+print("기업: "+ name)으로 namedpsms "를 사용 하지 않는다
+마지막은 show 를 저장할 정보가 없다?
+
+기업: 삼성전자
+기업: 네이버
+
+아니요 save(hello.txt)를 추가해야 한다.

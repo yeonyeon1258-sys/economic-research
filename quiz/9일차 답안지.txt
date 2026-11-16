@@ -1,0 +1,4 @@
+7,9
+7,9
+count_source에서 이미 값을 리턴하였기 때문에 print를 사용하면 안됀다.
+count_sout=rce("한경", news) 로 고쳐야 한다.

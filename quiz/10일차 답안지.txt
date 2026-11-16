@@ -1,0 +1,12 @@
+T HBM이 내용안에 들어있기에 출력가능하다
+F HBM 보다 더 많은 양이 출력될 수 없기에 출력불가능
+F == 문에서 둘이 다르기에 출력불가능
+
+(b) 나머지 (a),(c)는 정의된 함수에 들어가는 데이터 타입에 올바르지 않는다.
+
+def count_company(news_list, company):
+    count = 0
+    for n in news_list:
+        if company in n["title"]:
+            count = count + 1
+    return count
