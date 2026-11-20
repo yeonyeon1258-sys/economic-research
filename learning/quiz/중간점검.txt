@@ -1,0 +1,16 @@
+2줄 
+A
+BC 형태로 출력된다. 
+
+
+cd .. 이 파일을 상위폴더로 이동한다
+pip add . pip파일을 다음 상위폴더에 추가한다.
+
+result = get_titles() 에서 어떤 딕셔너리에 있는 내용을 꺼낼지가 적혀있지 않다
+result = get_titles(news)와 같이 작성해야 한다.
+
+for item in feed.entries:
+    if "삼성" in title:
+        print(item["title"])
+
+        
