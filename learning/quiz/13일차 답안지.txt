@@ -1,0 +1,9 @@
+(가)type error --> NameError
+(나)title 이 출력된다
+(다)삼성전자 실적 발표 - 한국경제
+(라) error ? --> NameError
+
+count 속성은 int 이라서 str(count)로 고쳐야 한다
+
+#A 3--> for 에 print 있으니 1,3,6 각각 출력된다
+#B 6
