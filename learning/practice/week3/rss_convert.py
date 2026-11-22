@@ -1,4 +1,5 @@
 import feedparser
+import csv
 
 url = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
 feed = feedparser.parse(url)
@@ -33,3 +34,13 @@ def filter_news(news_list, company):
 result = filter_news(news_list, "-")
 for n in result:
     print(n["source"] + " | " + n["title"])
+
+
+def save_csv(filename, news_list):
+    with open(filename, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["date", "source", "title"])
+        writer.writeheader()
+        for n in news_list:
+            writer.writerow(n)
+
+save_csv("news.csv", news_list)

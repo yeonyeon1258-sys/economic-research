@@ -1,0 +1,14 @@
+(가) 반도체 수출 증가- 한국경제
+(나) https://www.hankyung.com, 한국경제
+(다) 한국경제
+
+def make_news_list(entries):
+    picked = []
+    for n in entries:
+       news = {"title": n["title"], "source": n["source"]["title"]}
+       picked.append(news)
+    return picked
+우리가 필요한 것은 새롭게 정의된 딕셔너리이기 때문에 새로운 딕셔너리에 이름을 부여하고 담아야한댜.
+
+(가) NameError date가 정의되지 않음
+(나) TypeError news_list는 len으로 정의하지 않는다?
