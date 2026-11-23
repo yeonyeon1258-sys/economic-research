@@ -1,0 +1,8 @@
+2
+2
+변수는 new_list 를 사용하지만 return 값은 항상 news 이기 때문에 2가 출력된다.
+
+2칸 newline =""로 새롭게 칸을 나눠서
+
+TypeError news 안에는 숫자 글자 다 포함되어서 str(len())형태로 써야 한다
+NameError title이라는 변수도 없어서
