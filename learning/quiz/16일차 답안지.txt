@@ -1,0 +1,6 @@
+windows 에서 줄 사이에 빈 줄이 끼는 것을 막아준다
+CSV에서 칸을 나누는 기호는 , 이다
+
+Type Error len은 int 를 돌려준다. 
+
+feed 쪽에 "삼성전자" url이 담기지 않음.
