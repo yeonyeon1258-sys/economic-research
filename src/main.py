@@ -2,7 +2,7 @@
 import csv
 import feedparser
 from urllib.parse import quote
-
+from datetime import date
 #function
 
 def make_search_url(company):
@@ -27,10 +27,11 @@ def save_csv(filename, news_list):
 
 #run
 
-company = "SK 하이닉스"
+company = input("기업 이름을 입력하세요: ")
 url = make_search_url(company)    
 feed = feedparser.parse(url)        
-news = make_news_list(feed.entries)     
-save_csv("save.csv", news)    
+news = make_news_list(feed.entries)
+today = str(date.today())
+filename = "output/" + company + "_" + today + ".csv"
+save_csv(filename, news)
 print("저장 완료: " + str(len(news)) + "건") 
-
