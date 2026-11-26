@@ -1,0 +1,6 @@
+TypeError 가 난다 input은 str()로 변환하는 함수인데 1은 int 속성이라 둘이 더하면 오류가 된다?
+
+output/company.csv 로 출력된다. 이름 전체를 ""로 감싸서 전부 함수이름으로 인식해버린다.
+삼성전자.csv 로 출력된다. + 로 이어져있어서 output 경로로 변수 company를 .csv 로 저장한다.
+
+.gitignore은 *csv 모든 ().csv 로 시작하는 문서는 github에 올리지 않는다. 하지만 예전에 남아있는 .csv는 삭제되지 않고 그대로 남아 있어 명령어를 통해 지워야 한다. 
